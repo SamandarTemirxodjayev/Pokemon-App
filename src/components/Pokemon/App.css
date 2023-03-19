@@ -1,0 +1,51 @@
+.namePokemonItem > h1, .homeUrl{
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+.namePokemonItem{
+  background-color: #27b443;
+  border-radius: 20px;
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Tilt Neon', cursive;
+}
+.boxPokemon{
+  display: flex;
+}
+.imgPokemon{
+  height: 20%;
+  width: 20%;
+  margin: -7% 7%;
+}
+.types{
+  display: flex;
+}
+.types > h2{
+  margin: 10% 50px;
+}
+ul > li{
+  list-style-type: none;
+  text-transform: capitalize;
+}
+ul{
+  margin: auto 0;
+}
+.typesPokemon{
+  margin: auto 0;
+}
+.homeUrl{
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
